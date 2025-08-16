@@ -51,7 +51,7 @@ def main():
             print(f"New driver available: {latest['label']}")
             print(f"Download URL: {latest['link']}")
         else:
-            print(f"I already have the latest driver version {KNOWN_DRIVER}.")
+            print(f"Ratsi, unfortunately you already have the latest driver version {KNOWN_DRIVER}. Mackie is so lamer.")
 
     except requests.exceptions.RequestException as e:
         print(f"Connection error: {str(e)}")
